@@ -1,13 +1,13 @@
 const CONFIG = {
   // profile setting (required)
   profile: {
-    name: "Goosull",
+    name: "goosull",
     image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: "Just student",
     bio: "I'm finding what I should do",
     email: "2060won@naver.com",
-    linkedin: "https://www.linkedin.com/in/seungwon-kim-6b0a792b9/",
-    github: "https://github.com/goosull",
+    linkedin: "goosull",
+    github: "goosull",
     instagram: "",
   },
   projects: [
@@ -19,7 +19,7 @@ const CONFIG = {
 
   // blog setting (required)
   blog: {
-    title: "Goosull-log",
+    title: "goosull-log",
     description: "welcome to Goosull-log!",
   },
 
