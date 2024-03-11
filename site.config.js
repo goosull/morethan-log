@@ -6,14 +6,14 @@ const CONFIG = {
     role: "Just student",
     bio: "I'm finding what I should do",
     email: "2060won@naver.com",
-    linkedin: "Goosull",
-    github: "Goosull",
+    linkedin: "https://www.linkedin.com/in/seungwon-kim-6b0a792b9/",
+    github: "https://github.com/goosull",
     instagram: "",
   },
   projects: [
     {
-      name: `morethan-log`,
-      href: "https://github.com/morethanmin/morethan-log",
+      name: `Software_Engineering_Itust2`,
+      href: "https://github.com/goosull/Software_Engineering_Itrust2",
     },
   ],
 
