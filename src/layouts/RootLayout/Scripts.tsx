@@ -6,7 +6,7 @@ const Scripts: React.FC = () => (
     {CONFIG?.googleAnalytics?.enable === true && (
       <>
         <Script
-          src={`https://www.googletagmanager.com/gtag/js?id=${CONFIG.googleAnalytics.config.measurementId}`}
+          async src={`https://www.googletagmanager.com/gtag/js?id=${CONFIG.googleAnalytics.config.measurementId}`}
         />
         <Script strategy="lazyOnload" id="ga">
           {`window.dataLayer = window.dataLayer || [];
