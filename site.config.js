@@ -50,7 +50,7 @@ const CONFIG = {
   naverSearchAdvisor: {
     enable: false,
     config: {
-      siteVerification: process.env.NEXT_PUBLIC_NAVER_SITE_VERIFICATION || "",
+      siteVerification: process.env.NEXT_PUBLIC_NAVER_SITE_VERIFICATION || "077b8285923fea7f4afdedfed9f8d8ccfd279690",
     },
   },
   utterances: {
