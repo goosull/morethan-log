@@ -38,19 +38,19 @@ const CONFIG = {
   googleAnalytics: {
     enable: true,
     config: {
-      measurementId: process.env.NEXT_PUBLIC_GOOGLE_MEASUREMENT_ID || "G-KD51CFJDF1",
+      measurementId: process.env.NEXT_PUBLIC_GOOGLE_MEASUREMENT_ID || "G-XNJ8QCENCT",
     },
   },
   googleSearchConsole: {
-    enable: false,
+    enable: true,
     config: {
       siteVerification: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION || "J1M-uuT5V0_cHp-LXnGMVw4BShJt3tmrRDLPUUj9XTM",
     },
   },
   naverSearchAdvisor: {
-    enable: false,
+    enable: true,
     config: {
-      siteVerification: process.env.NEXT_PUBLIC_NAVER_SITE_VERIFICATION || "077b8285923fea7f4afdedfed9f8d8ccfd279690",
+      siteVerification: process.env.NEXT_PUBLIC_NAVER_SITE_VERIFICATION || "0fe60a809c0820a149dc68babaeddc89472206fb",
     },
   },
   utterances: {
