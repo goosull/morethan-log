@@ -19,8 +19,8 @@ const CONFIG = {
 
   // blog setting (required)
   blog: {
-    title: "goosull-log",
-    description: "welcome to Goosull-log!",
+    title: "goosullog",
+    description: "welcome to goosullog!",
   },
 
   // CONFIG configration (required)
