@@ -1,6 +1,7 @@
 import styled from "@emotion/styled"
 import { useRouter } from "next/router"
 import React from "react"
+import { useTagsQuery } from "src/hooks/useTagsQuery"
 
 type Props = {
   children: string
@@ -12,9 +13,13 @@ const Tag: React.FC<Props> = ({ children }) => {
   const handleClick = (value: string) => {
     router.push(`/?tag=${value}`)
   }
+
+  const tag = useTagsQuery
+
   return (
     <StyledWrapper onClick={() => handleClick(children)}>
       {children}
+      {tag}
     </StyledWrapper>
   )
 }
