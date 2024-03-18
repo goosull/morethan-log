@@ -27,9 +27,9 @@ const StyledWrapper = styled.div`
   padding-left: 0.5rem;
   padding-right: 0.5rem;
   border-radius: 50px;
-  font-size: 0.75rem;
+  font-size: 1rem;
   line-height: 1rem;
-  font-weight: 500;
+  font-weight: 400;
   color: ${({ theme }) => theme.colors.gray10};
   background-color: ${({ theme }) => theme.colors.gray5};
   cursor: pointer;
