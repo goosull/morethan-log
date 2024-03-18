@@ -14,7 +14,7 @@ const Tag: React.FC<Props> = ({ children }) => {
     router.push(`/?tag=${value}`)
   }
 
-  const tag = useTagsQuery
+  const tag = useTagsQuery()
 
   return (
     <StyledWrapper onClick={() => handleClick(children)}>
