@@ -44,8 +44,8 @@ const TagList: React.FC<Props> = () => {
             data-active={key === currentTag}
             onClick={() => handleClickTag(key)}
           >
-            {key}
-            ({data[key]})
+            <div className="tag-name">{key}</div>
+            <div className="tag-count">({data[key]})</div>
           </a>
         ))}
       </div>
@@ -96,7 +96,6 @@ const StyledWrapper = styled.div`
       color: ${({ theme }) => theme.colors.gray10};
       flex-shrink: 0;
       cursor: pointer;
-      margin-right: auto;
 
       :hover {
         background-color: ${({ theme }) => theme.colors.gray4};
@@ -108,6 +107,14 @@ const StyledWrapper = styled.div`
         :hover {
           background-color: ${({ theme }) => theme.colors.gray4};
         }
+      }
+
+      .tag-name {
+        flex-grow: 1; /* 텍스트를 왼쪽으로 정렬 */
+      }
+
+      .tag-count {
+        margin-left: 0.5rem; /* 숫자를 왼쪽으로 간격을 둬서 오른쪽으로 정렬 */
       }
     }
   }
