@@ -43,6 +43,7 @@ const TagList: React.FC<Props> = () => {
             key={key}
             data-active={key === currentTag}
             onClick={() => handleClickTag(key)}
+            tagSize:number = useTagsQuery()[children]
           >
             {key}
           </a>

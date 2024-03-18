@@ -1,7 +1,6 @@
 import styled from "@emotion/styled"
 import { useRouter } from "next/router"
 import React from "react"
-import { useTagsQuery } from "src/hooks/useTagsQuery"
 
 type Props = {
   children: string
@@ -19,7 +18,6 @@ const Tag: React.FC<Props> = ({ children }) => {
   return (
     <StyledWrapper onClick={() => handleClick(children)}>
       {children}
-      <span>({tagSize})</span>
     </StyledWrapper>
   )
 }
