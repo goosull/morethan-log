@@ -43,10 +43,9 @@ const TagList: React.FC<Props> = () => {
             key={key}
             data-active={key === currentTag}
             onClick={() => handleClickTag(key)}
-            const tagCounts = {Object.values(data).map(tagObjects => tagObjects.length)}
+            tagSize={data[key]}
           >
             {key}
-            {tagCounts}
           </a>
         ))}
       </div>
