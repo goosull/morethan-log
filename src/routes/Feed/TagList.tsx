@@ -43,8 +43,10 @@ const TagList: React.FC<Props> = () => {
             key={key}
             data-active={key === currentTag}
             onClick={() => handleClickTag(key)}
+            tagCounts = {Object.values(data).map(tagObjects => tagObjects.length)}
           >
             {key}
+            {tagCounts}
           </a>
         ))}
       </div>
