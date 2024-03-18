@@ -13,8 +13,6 @@ const Tag: React.FC<Props> = ({ children }) => {
     router.push(`/?tag=${value}`)
   }
 
-  const tagSize:number = useTagsQuery()[children]
-
   return (
     <StyledWrapper onClick={() => handleClick(children)}>
       {children}
