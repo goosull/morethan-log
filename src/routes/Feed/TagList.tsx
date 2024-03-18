@@ -96,7 +96,7 @@ const StyledWrapper = styled.div`
       color: ${({ theme }) => theme.colors.gray10};
       flex-shrink: 0;
       cursor: pointer;
-      margin-left: auto;
+      margin-right: auto;
 
       :hover {
         background-color: ${({ theme }) => theme.colors.gray4};
