@@ -14,12 +14,12 @@ const Tag: React.FC<Props> = ({ children }) => {
     router.push(`/?tag=${value}`)
   }
 
-  const tag = useTagsQuery()
+  const tagSize:number = useTagsQuery()[children]
 
   return (
     <StyledWrapper onClick={() => handleClick(children)}>
       {children}
-      {tag}
+      <span>({tagSize})</span>
     </StyledWrapper>
   )
 }
