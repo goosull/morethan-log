@@ -6,4 +6,4 @@ Allow: /
 Host: https://goosullog.vercel.app/
 
 # Sitemaps
-Sitemap: https://goosullog.vercel.app/sitemap.xml
+Sitemap: https://goosullog.vercel.app/sitemap.xml   
