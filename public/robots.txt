@@ -3,4 +3,4 @@ User-agent: *
 Allow: /
 
 # Sitemaps
-Sitemap: https://goosullog.vercel.app/sitemap.xml
+Sitemap: https://goosullog.vercel.app/sitemap.xml   
