@@ -11,12 +11,12 @@ const CONFIG = {
     instagram: "goo__sull",
     ootd: "https://www.musinsa.com/snap/profile/f14e78bef7d8028c6f0fe8cfee9920d5",
   },
-  projects: [
-    // {
-    //   name: `Software_Engineering_Itust2`,
-    //   href: "https://github.com/goosull/Software_Engineering_Itrust2",
-    // },
-  ],
+  // projects: [
+  //   {
+  //     name: `Software_Engineering_Itust2`,
+  //     href: "https://github.com/goosull/Software_Engineering_Itrust2",
+  //   },
+  // ],
 
   // blog setting (required)
   blog: {
