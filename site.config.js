@@ -12,7 +12,7 @@ const CONFIG = {
   },
   projects: [
     {
-      name: `OOTD`,
+      name: `musinsa snap`,
       href: "https://www.musinsa.com/snap/profile/f14e78bef7d8028c6f0fe8cfee9920d5",
     },
   ],
