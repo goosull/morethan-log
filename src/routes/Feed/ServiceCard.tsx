@@ -4,29 +4,29 @@ import { AiFillCodeSandboxCircle } from "react-icons/ai"
 import styled from "@emotion/styled"
 import { Emoji } from "src/components/Emoji"
 
-const ServiceCard: React.FC = () => {
-  if (!CONFIG.projects) return null
-  return (
-    <>
-      <StyledTitle>
-        <Emoji>🌟</Emoji> Projects
-      </StyledTitle>
-      <StyledWrapper>
-        {CONFIG.projects.map((project, idx) => (
-          <a
-            key={idx}
-            href={`${project.href}`}
-            rel="noreferrer"
-            target="_blank"
-          >
-            <AiFillCodeSandboxCircle className="icon" />
-            <div className="name">{project.name}</div>
-          </a>
-        ))}
-      </StyledWrapper>
-    </>
-  )
-}
+// const ServiceCard: React.FC = () => {
+//   if (!CONFIG.projects) return null
+//   return (
+//     <>
+//       <StyledTitle>
+//         <Emoji>🌟</Emoji> Projects
+//       </StyledTitle>
+//       <StyledWrapper>
+//         {CONFIG.projects.map((project, idx) => (
+//           <a
+//             key={idx}
+//             href={`${project.href}`}
+//             rel="noreferrer"
+//             target="_blank"
+//           >
+//             <AiFillCodeSandboxCircle className="icon" />
+//             <div className="name">{project.name}</div>
+//           </a>
+//         ))}
+//       </StyledWrapper>
+//     </>
+//   )
+// }
 
 export default ServiceCard
 
