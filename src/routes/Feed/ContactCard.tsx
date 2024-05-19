@@ -5,7 +5,7 @@ import {
   AiOutlineGithub,
   AiOutlineInstagram,
   AiOutlineMail,
-  AiOutlineRuby,
+  AiOutlinePicture,
 } from "react-icons/ai"
 import { CONFIG } from "site.config"
 import { Emoji } from "src/components/Emoji"
@@ -43,7 +43,7 @@ const ContactCard: React.FC = () => {
             rel="noreferrer"
             target="_blank"
           >
-            <AiOutlineRuby className="icon" />
+            <AiOutlinePicture className="icon" />
             <div className="name">OOTD</div>
           </a>
         )}
